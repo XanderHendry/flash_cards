@@ -19,7 +19,7 @@ class Turn
   end
 
   def feedback
-    if @string == card.answer
+    if correct?
        "Correct!"
     else
        "Incorrect!"
